@@ -1,8 +1,9 @@
 # Two Vals
-This repository holds code and log files for the paper ``Classically Integral Quadratic Forms Excepting at Most Two Values,'' by Madeleine Barowsky, William Damron, Andres Mejia, Frederick Saia, Nolan Schock, and Katherine Thompson.
+This repository holds code and log files for the paper ["Classically Integral Quadratic Forms Excepting at Most Two Values,"](http://arxiv.org/abs/1608.01656) by Madeleine Barowsky, William Damron, Andres Mejia, Frederick Saia, Nolan Schock, and Katherine Thompson.
 
 ## Quadratic Forms Eligibility Suite
 This directory contains all the Magma code we used to run each given form:
+
 *`RunForm.m`---The main source file, containing code to call the rest of the files.
 *`RunPrelim.m`---Contains code for computing anisotropic primes, cusp space, local densities, and the cusp and eisenstein coefficients of a given form. Most of this code is courtesy of Jeremy Rouse, who wrote the code initially for the 451 Theorem.
 *`Eligibility.m`---Contains functions for computing and checking eligible numbers.
