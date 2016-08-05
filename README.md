@@ -4,11 +4,11 @@ This repository holds code and log files for the paper ["Classically Integral Qu
 ## Quadratic Forms Eligibility Suite
 This directory contains all the Magma code we used to run each given form:
 
-*`RunForm.m`---The main source file, containing code to call the rest of the files.
-*`RunPrelim.m`---Contains code for computing anisotropic primes, cusp space, local densities, and the cusp and eisenstein coefficients of a given form. Most of this code is courtesy of Jeremy Rouse, who wrote the code initially for the 451 Theorem.
-*`Eligibility.m`---Contains functions for computing and checking eligible numbers.
-*`CheckEligibility.m`---Contains functions that call `Eligibility.m` to check the eligibility of each number in a given list.
-*`RunEligibility.m`---Contains functions that call `Eligibility.m` to generate lists of eligible numbers and subsequently compute their eligibility on `CheckEligibility.m`.
+*RunForm.m---The main source file, containing code to call the rest of the files.
+*RunPrelim.m---Contains code for computing anisotropic primes, cusp space, local densities, and the cusp and eisenstein coefficients of a given form. Most of this code is courtesy of Jeremy Rouse, who wrote the code initially for the 451 Theorem.
+*Eligibility.m---Contains functions for computing and checking eligible numbers.
+*CheckEligibility.m---Contains functions that call `Eligibility.m` to check the eligibility of each number in a given list.
+*RunEligibility.m---Contains functions that call `Eligibility.m` to generate lists of eligible numbers and subsequently compute their eligibility on `CheckEligibility.m`.
 
 
 ## Log Files
