@@ -1,0 +1,89 @@
+Summary for Form #38.
+Form has matrix [ 1 -1  0 -2]
+[-1  2  0  2]
+[ 0  0  6 -1]
+[-2  2 -1 12].
+This form has level 188.
+It has character 188.
+The list of anisotropic primes is
+   [].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 22. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 188.
+Newform class 1 has size 10.
+Newform class 2 has size 12.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 3.
+The big matrix now has 8 rows.
+Rank checking with p = 21332579
+Matrix now has 8 rows.
+Rank checking with p = 22027877
+Matrix now has 8 rows.
+Rank checking with p = 18871999
+Matrix now has 8 rows.
+Matrix has 22 columns.
+Computing newform coefficients at p = 5.
+The big matrix now has 32 rows.
+Rank checking with p = 9224381
+Matrix now has 19 rows.
+Rank checking with p = 17727173
+Matrix now has 19 rows.
+Rank checking with p = 5416871
+Matrix now has 19 rows.
+Matrix has 22 columns.
+Computing newform coefficients at p = 7.
+The big matrix now has 63 rows.
+Rank checking with p = 19426207
+Matrix now has 22 rows.
+Rank checking with p = 17549953
+Matrix now has 22 rows.
+Rank checking with p = 14766821
+Matrix now has 22 rows.
+Matrix has 22 columns.
+We're done with d = 1!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 5.432655825.
+Memory used was 924.22 Mb.
+The Eisenstein lower bound is 23/28 =
+   0.8214286.
+The F4 upper bound is 6.679804640.
+The numerical Eisenstein lower bound is 28750/34993 = 0.8215929.
+The numerical cusp form bound is 2.360553.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 3, 27 ]
+Split local cover of the form [d] + L with d = 1.
+L = [ 2  0  0]
+[ 0 12 -2]
+[ 0 -2 16].
+Preprocessing complete. Time needed is 32.900 sec.
+The bound for eligible primes is 29.50082000.
+There are 487 eligible primes.
+The product of more than 9 primes exceeds the bound.
+The largest squarefree eligible number is 281291010.
+Computing the theta series for the ternary form up to precision 268348.
+There are 2 numbers which aren't represented by the ternary form.
+They are [ 3, 1 ].
+The following numbers fail to be represented by the form: [ 3 ].
+Checking eligible numbers complete. Time needed is 0.180 sec.
+There are 1 numbers which aren't represented by the ternary form.
+They are [ 27 ].
+The following numbers fail to be represented by the form: [ 27 ].
+Checking eligible numbers complete. Time needed is 0.010 sec.
+There are 0 numbers which aren't represented by the ternary form.
+They are [].
+The following numbers fail to be represented by the form: [ 3, 27 ]
+Time needed is 33.010 sec.

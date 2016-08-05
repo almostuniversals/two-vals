@@ -1,0 +1,270 @@
+Summary for Form #23.
+Form has matrix [ 1  0 -1 -1]
+[ 0  3  0 -1]
+[-1  0  5 -2]
+[-1 -1 -2 10].
+This form has level 308.
+It has character 77.
+The list of anisotropic primes is
+   [].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 42. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 77.
+Newform class 1 has size 2.
+Newform class 2 has size 4.
+Computing newforms of level 154.
+Newform class 1 has size 8.
+Computing newforms of level 308.
+Newform class 1 has size 4.
+Newform class 2 has size 4.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 3.
+The big matrix now has 8 rows.
+Rank checking with p = 22184749
+Matrix now has 8 rows.
+Rank checking with p = 4751111
+Matrix now has 8 rows.
+Rank checking with p = 15211541
+Matrix now has 8 rows.
+Matrix has 22 columns.
+Computing newform coefficients at p = 5.
+The big matrix now has 32 rows.
+Rank checking with p = 13286407
+Matrix now has 11 rows.
+Rank checking with p = 28999921
+Matrix now has 11 rows.
+Rank checking with p = 31361059
+Matrix now has 11 rows.
+Matrix has 22 columns.
+Computing newform coefficients at p = 13.
+The big matrix now has 42 rows.
+Rank checking with p = 13116461
+Matrix now has 21 rows.
+Rank checking with p = 19111387
+Matrix now has 21 rows.
+Rank checking with p = 616789
+Matrix now has 21 rows.
+Matrix has 22 columns.
+Computing newform coefficients at p = 17.
+The big matrix now has 59 rows.
+Rank checking with p = 13210777
+Matrix now has 21 rows.
+Rank checking with p = 11174557
+Matrix now has 21 rows.
+Rank checking with p = 7449301
+Matrix now has 21 rows.
+Matrix has 22 columns.
+Computing newform coefficients at p = 19.
+The big matrix now has 65 rows.
+Rank checking with p = 30450631
+Matrix now has 21 rows.
+Rank checking with p = 25080283
+Matrix now has 21 rows.
+Rank checking with p = 18398599
+Matrix now has 21 rows.
+Matrix has 22 columns.
+Computing newform coefficients at p = 23.
+The big matrix now has 64 rows.
+Rank checking with p = 418051
+Matrix now has 21 rows.
+Rank checking with p = 17032291
+Matrix now has 21 rows.
+Rank checking with p = 18269311
+Matrix now has 21 rows.
+Matrix has 22 columns.
+Computing newform coefficients at p = 29.
+The big matrix now has 67 rows.
+Rank checking with p = 30459301
+Matrix now has 22 rows.
+Rank checking with p = 6845897
+Matrix now has 22 rows.
+Rank checking with p = 16731581
+Matrix now has 22 rows.
+Matrix has 22 columns.
+We're done with d = 1!
+Finding minimal coefficients for d = 2.
+The big matrix now has 8 rows.
+Rank checking with p = 4758043
+Matrix now has 7 rows.
+Rank checking with p = 21024271
+Matrix now has 7 rows.
+Rank checking with p = 27365479
+Matrix now has 7 rows.
+Matrix has 14 columns.
+The big matrix now has 27 rows.
+Rank checking with p = 5182207
+Matrix now has 7 rows.
+Rank checking with p = 21767869
+Matrix now has 7 rows.
+Rank checking with p = 2466323
+Matrix now has 7 rows.
+Matrix has 14 columns.
+The big matrix now has 31 rows.
+Rank checking with p = 7487057
+Matrix now has 13 rows.
+Rank checking with p = 18468347
+Matrix now has 13 rows.
+Rank checking with p = 6549077
+Matrix now has 13 rows.
+Matrix has 14 columns.
+The big matrix now has 40 rows.
+Rank checking with p = 31846523
+Matrix now has 13 rows.
+Rank checking with p = 23721629
+Matrix now has 13 rows.
+Rank checking with p = 31004669
+Matrix now has 13 rows.
+Matrix has 14 columns.
+The big matrix now has 44 rows.
+Rank checking with p = 14495219
+Matrix now has 13 rows.
+Rank checking with p = 33130171
+Matrix now has 13 rows.
+Rank checking with p = 23600383
+Matrix now has 13 rows.
+Matrix has 14 columns.
+The big matrix now has 44 rows.
+Rank checking with p = 3265049
+Matrix now has 13 rows.
+Rank checking with p = 2830361
+Matrix now has 13 rows.
+Rank checking with p = 1238177
+Matrix now has 13 rows.
+Matrix has 14 columns.
+The big matrix now has 44 rows.
+Rank checking with p = 3529063
+Matrix now has 14 rows.
+Rank checking with p = 9454213
+Matrix now has 14 rows.
+Rank checking with p = 13915829
+Matrix now has 14 rows.
+Matrix has 14 columns.
+We're done with d = 2!
+Finding minimal coefficients for d = 4.
+The big matrix now has 7 rows.
+Rank checking with p = 8385071
+Matrix now has 3 rows.
+Rank checking with p = 7703411
+Matrix now has 3 rows.
+Rank checking with p = 27370111
+Matrix now has 3 rows.
+Matrix has 6 columns.
+The big matrix now has 21 rows.
+Rank checking with p = 16267213
+Matrix now has 3 rows.
+Rank checking with p = 31063237
+Matrix now has 3 rows.
+Rank checking with p = 25263713
+Matrix now has 3 rows.
+Matrix has 6 columns.
+The big matrix now has 21 rows.
+Rank checking with p = 16381471
+Matrix now has 5 rows.
+Rank checking with p = 12486157
+Matrix now has 5 rows.
+Rank checking with p = 31130527
+Matrix now has 5 rows.
+Matrix has 6 columns.
+The big matrix now has 24 rows.
+Rank checking with p = 31245451
+Matrix now has 5 rows.
+Rank checking with p = 1375039
+Matrix now has 5 rows.
+Rank checking with p = 15552619
+Matrix now has 5 rows.
+Matrix has 6 columns.
+The big matrix now has 27 rows.
+Rank checking with p = 32932673
+Matrix now has 5 rows.
+Rank checking with p = 6021497
+Matrix now has 5 rows.
+Rank checking with p = 1941481
+Matrix now has 5 rows.
+Matrix has 6 columns.
+The big matrix now has 26 rows.
+Rank checking with p = 7209667
+Matrix now has 5 rows.
+Rank checking with p = 4482701
+Matrix now has 5 rows.
+Rank checking with p = 31606331
+Matrix now has 5 rows.
+Matrix has 6 columns.
+The big matrix now has 26 rows.
+Rank checking with p = 10997807
+Matrix now has 6 rows.
+Rank checking with p = 16806833
+Matrix now has 6 rows.
+Rank checking with p = 13694179
+Matrix now has 6 rows.
+Matrix has 6 columns.
+We're done with d = 4!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building trace matrix for newform 3.
+Done!
+Building trace matrix for newform 4.
+Done!
+Building trace matrix for newform 5.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+Working on decomposition of d = 2 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building trace matrix for newform 3.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+Working on decomposition of d = 4 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 3.385956889.
+Memory used was 736.16 Mb.
+The Eisenstein lower bound is 1/2 =
+   0.5000000.
+The F4 upper bound is 6.839632916.
+The numerical Eisenstein lower bound is 1239/2477 = 0.5002019.
+The numerical cusp form bound is 0.6695774.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 2, 6 ]
+Split local cover of the form [d] + L with d = 1.
+L = [ 6  0 -2]
+[ 0  8  2]
+[-2  2 14].
+Preprocessing complete. Time needed is 19.120 sec.
+The bound for eligible primes is 29.96976987.
+There are 503 eligible primes.
+The product of more than 8 primes exceeds the bound.
+The largest squarefree eligible number is 35303730.
+Computing the theta series for the ternary form up to precision 95068.
+There are 3 numbers which aren't represented by the ternary form.
+They are [ 6, 2, 1 ].
+The following numbers fail to be represented by the form: [ 6, 2 ].
+Checking eligible numbers complete. Time needed is 0.150 sec.
+There are 0 numbers which aren't represented by the ternary form.
+They are [].
+The following numbers fail to be represented by the form: [ 6, 2 ]
+Time needed is 9.220 sec.

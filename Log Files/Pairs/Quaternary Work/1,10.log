@@ -1,0 +1,99 @@
+Summary for Form #8.
+Form has matrix [ 2  0 -1 -3]
+[ 0  3 -1  0]
+[-1 -1  4  1]
+[-3  0  1  6].
+This form has level 108.
+It has character 12.
+The list of anisotropic primes is
+   [].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 12. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 12.
+Computing newforms of level 36.
+Newform class 1 has size 2.
+Computing newforms of level 108.
+Newform class 1 has size 4.
+Newform class 2 has size 4.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 5.
+The big matrix now has 6 rows.
+Rank checking with p = 12673091
+Matrix now has 6 rows.
+Rank checking with p = 14891593
+Matrix now has 6 rows.
+Rank checking with p = 7650611
+Matrix now has 6 rows.
+Matrix has 10 columns.
+Computing newform coefficients at p = 7.
+The big matrix now has 21 rows.
+Rank checking with p = 19516177
+Matrix now has 10 rows.
+Rank checking with p = 6403363
+Matrix now has 10 rows.
+Rank checking with p = 27595609
+Matrix now has 10 rows.
+Matrix has 10 columns.
+We're done with d = 1!
+Finding minimal coefficients for d = 3.
+The big matrix now has 5 rows.
+Rank checking with p = 18237997
+Matrix now has 2 rows.
+Rank checking with p = 6055669
+Matrix now has 2 rows.
+Rank checking with p = 1655321
+Matrix now has 2 rows.
+Matrix has 2 columns.
+We're done with d = 3!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building trace matrix for newform 3.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+Working on decomposition of d = 3 piece.
+Building trace matrix for newform 1.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 4.436661230.
+Memory used was 1198.4 Mb.
+The Eisenstein lower bound is 2/3 =
+   0.6666667.
+The F4 upper bound is 6.721541764.
+The numerical Eisenstein lower bound is 10000/14997 = 0.6668000.
+The numerical cusp form bound is 2.000000.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 1, 10 ]
+Split local cover of the form [d] + L with d = 2.
+L = [ 6 -2 -2]
+[-2  8  4]
+[-2  4 12].
+Preprocessing complete. Time needed is 23.160 sec.
+The bound for eligible primes is 14.84257433.
+There are 153 eligible primes.
+The product of more than 8 primes exceeds the bound.
+The largest squarefree eligible number is 17160990.
+Computing the theta series for the ternary form up to precision 132563.
+There are 3 numbers which aren't represented by the ternary form.
+They are [ 10, 2, 1 ].
+The following numbers fail to be represented by the form: [ 10, 1 ].
+Checking eligible numbers complete. Time needed is 0.050 sec.
+There are 0 numbers which aren't represented by the ternary form.
+They are [].
+The following numbers fail to be represented by the form: [ 10, 1 ]
+Time needed is 14.710 sec.

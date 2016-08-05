@@ -1,0 +1,203 @@
+Summary for Form #29.
+Form has matrix [ 1  0 -1 -1]
+[ 0  3  0  0]
+[-1  0  5  0]
+[-1  0  0  6].
+This form has level 228.
+It has character 57.
+The list of anisotropic primes is
+   [].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 34. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 57.
+Newform class 1 has size 4.
+Computing newforms of level 114.
+Newform class 1 has size 2.
+Newform class 2 has size 2.
+Newform class 3 has size 2.
+Newform class 4 has size 2.
+Computing newforms of level 228.
+Newform class 1 has size 2.
+Newform class 2 has size 4.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 5.
+The big matrix now has 6 rows.
+Rank checking with p = 6945329
+Matrix now has 6 rows.
+Rank checking with p = 10239181
+Matrix now has 6 rows.
+Rank checking with p = 23944387
+Matrix now has 6 rows.
+Matrix has 18 columns.
+Computing newform coefficients at p = 7.
+The big matrix now has 21 rows.
+Rank checking with p = 13069649
+Matrix now has 9 rows.
+Rank checking with p = 14988697
+Matrix now has 9 rows.
+Rank checking with p = 31316111
+Matrix now has 9 rows.
+Matrix has 18 columns.
+Computing newform coefficients at p = 11.
+The big matrix now has 32 rows.
+Rank checking with p = 2138909
+Matrix now has 9 rows.
+Rank checking with p = 3373043
+Matrix now has 9 rows.
+Rank checking with p = 30054331
+Matrix now has 9 rows.
+Matrix has 18 columns.
+Computing newform coefficients at p = 13.
+The big matrix now has 41 rows.
+Rank checking with p = 15621763
+Matrix now has 18 rows.
+Rank checking with p = 21448723
+Matrix now has 18 rows.
+Rank checking with p = 14528747
+Matrix now has 18 rows.
+Matrix has 18 columns.
+We're done with d = 1!
+Finding minimal coefficients for d = 2.
+The big matrix now has 5 rows.
+Rank checking with p = 11759453
+Matrix now has 5 rows.
+Rank checking with p = 23037169
+Matrix now has 5 rows.
+Rank checking with p = 17986321
+Matrix now has 5 rows.
+Matrix has 12 columns.
+The big matrix now has 19 rows.
+Rank checking with p = 17219729
+Matrix now has 6 rows.
+Rank checking with p = 133283
+Matrix now has 6 rows.
+Rank checking with p = 29725919
+Matrix now has 6 rows.
+Matrix has 12 columns.
+The big matrix now has 24 rows.
+Rank checking with p = 24725863
+Matrix now has 6 rows.
+Rank checking with p = 30619543
+Matrix now has 6 rows.
+Rank checking with p = 29592331
+Matrix now has 6 rows.
+Matrix has 12 columns.
+The big matrix now has 33 rows.
+Rank checking with p = 28023781
+Matrix now has 12 rows.
+Rank checking with p = 17915753
+Matrix now has 12 rows.
+Rank checking with p = 10216229
+Matrix now has 12 rows.
+Matrix has 12 columns.
+We're done with d = 2!
+Finding minimal coefficients for d = 4.
+The big matrix now has 5 rows.
+Rank checking with p = 20488583
+Matrix now has 2 rows.
+Rank checking with p = 2826107
+Matrix now has 2 rows.
+Rank checking with p = 32535323
+Matrix now has 2 rows.
+Matrix has 4 columns.
+The big matrix now has 13 rows.
+Rank checking with p = 602317
+Matrix now has 2 rows.
+Rank checking with p = 18952961
+Matrix now has 2 rows.
+Rank checking with p = 3992347
+Matrix now has 2 rows.
+Matrix has 4 columns.
+The big matrix now has 16 rows.
+Rank checking with p = 2378371
+Matrix now has 2 rows.
+Rank checking with p = 30968303
+Matrix now has 2 rows.
+Rank checking with p = 25805947
+Matrix now has 2 rows.
+Matrix has 4 columns.
+The big matrix now has 21 rows.
+Rank checking with p = 17937793
+Matrix now has 4 rows.
+Rank checking with p = 28979801
+Matrix now has 4 rows.
+Rank checking with p = 14670917
+Matrix now has 4 rows.
+Matrix has 4 columns.
+We're done with d = 4!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building trace matrix for newform 3.
+Done!
+Building trace matrix for newform 4.
+Done!
+Building trace matrix for newform 5.
+Done!
+Building trace matrix for newform 6.
+Done!
+Building trace matrix for newform 7.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+Working on decomposition of d = 2 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building trace matrix for newform 3.
+Done!
+Building trace matrix for newform 4.
+Done!
+Building trace matrix for newform 5.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+Working on decomposition of d = 4 piece.
+Building trace matrix for newform 1.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 9.935029336.
+Memory used was 845.12 Mb.
+The Eisenstein lower bound is 3/7 =
+   0.4285714.
+The F4 upper bound is 23.41355247.
+The numerical Eisenstein lower bound is 1062/2477 = 0.4287444.
+The numerical cusp form bound is 1.899031.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 2, 22 ]
+Split local cover of the form [d] + L with d = 1.
+L = [ 6  0  0]
+[ 0  8 -2]
+[ 0 -2 10].
+Preprocessing complete. Time needed is 37.920 sec.
+The bound for eligible primes is 51.29652336.
+There are 1286 eligible primes.
+The product of more than 9 primes exceeds the bound.
+The largest squarefree eligible number is 987982710.
+Computing the theta series for the ternary form up to precision 502916.
+There are 3 numbers which aren't represented by the ternary form.
+They are [ 22, 2, 1 ].
+The following numbers fail to be represented by the form: [ 22, 2 ].
+Checking eligible numbers complete. Time needed is 0.970 sec.
+There are 0 numbers which aren't represented by the ternary form.
+They are [].
+The following numbers fail to be represented by the form: [ 22, 2 ]
+Time needed is 168.320 sec.

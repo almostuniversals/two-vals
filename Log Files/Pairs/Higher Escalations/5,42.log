@@ -1,0 +1,71 @@
+Summary for Form #1193.
+Form has matrix [ 1  0  0  0]
+[ 0  2  0  0]
+[ 0  0  7 -7]
+[ 0  0 -7 14].
+This form has level 56.
+It has character 8.
+The list of anisotropic primes is
+   [ 7 ].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 6. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 8.
+Computing newforms of level 56.
+Newform class 1 has size 2.
+Newform class 2 has size 4.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 3.
+The big matrix now has 8 rows.
+Rank checking with p = 8652283
+Matrix now has 6 rows.
+Rank checking with p = 8145691
+Matrix now has 6 rows.
+Rank checking with p = 28730761
+Matrix now has 6 rows.
+Matrix has 6 columns.
+We're done with d = 1!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 3.273618334.
+Memory used was 659.66 Mb.
+The Eisenstein lower bound is 1 =
+   1.000000.
+The F4 upper bound is 3.306354517.
+The numerical Eisenstein lower bound is 4988/4987 = 1.000201.
+The numerical cusp form bound is 1.891534.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 5, 21, 42, 245, 1029, 2058 ]
+Split local cover of the form [d] + L with d = 1.
+L = [ 4  0  0]
+[ 0 14  0]
+[ 0  0 14].
+Preprocessing complete. Time needed is 32.630 sec.
+The bound for eligible primes is 14.48771962.
+There are 146 eligible primes.
+The product of more than 8 primes exceeds the bound.
+There are 2397 squarefree eligible numbers
+The largest squarefree eligible number is 16546530.
+Computing the theta series for the ternary form up to precision 122033.
+There are 2 numbers which aren't represented by the ternary form.
+They are [ 5, 1 ].
+The following numbers fail to be represented by the form: [ 5 ].
+Checking eligible numbers complete. Time needed is 0.040 sec.
+There are 6 eligible numbers in this eligible squares list
+There are 0 numbers which aren't represented by the ternary form.
+They are [].
+The following numbers fail to be represented by the form: [ 5 ]
+Time needed is 12.210 sec.
+An anisotropic prime of 7 yields exceptions of the form 5*7^even, 3*7^odd, 6*7^odd

@@ -1,0 +1,94 @@
+Summary for Form #59.
+Form has matrix [ 1  0  0 -4]
+[ 0  2  0  0]
+[ 0  0  5 -4]
+[-4  0 -4 35].
+This form has level 632.
+It has character 632.
+The list of anisotropic primes is
+   [].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 78. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 632.
+Newform class 1 has size 10.
+Newform class 2 has size 68.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 3.
+The big matrix now has 8 rows.
+Rank checking with p = 7998643
+Matrix now has 8 rows.
+Rank checking with p = 24320629
+Matrix now has 8 rows.
+Rank checking with p = 18363991
+Matrix now has 8 rows.
+Matrix has 78 columns.
+Computing newform coefficients at p = 5.
+The big matrix now has 32 rows.
+Rank checking with p = 925949
+Matrix now has 27 rows.
+Rank checking with p = 27944921
+Matrix now has 27 rows.
+Rank checking with p = 2846783
+Matrix now has 27 rows.
+Matrix has 78 columns.
+Computing newform coefficients at p = 7.
+The big matrix now has 71 rows.
+Rank checking with p = 1295447
+Matrix now has 60 rows.
+Rank checking with p = 31482839
+Matrix now has 60 rows.
+Rank checking with p = 15034717
+Matrix now has 60 rows.
+Matrix has 78 columns.
+Computing newform coefficients at p = 11.
+The big matrix now has 117 rows.
+Rank checking with p = 20998163
+Matrix now has 78 rows.
+Rank checking with p = 8345891
+Matrix now has 78 rows.
+Rank checking with p = 11225437
+Matrix now has 78 rows.
+Matrix has 78 columns.
+We're done with d = 1!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.040
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 9.046218453.
+Memory used was 533.22 Mb.
+The Eisenstein lower bound is 117/178 =
+   0.6573034.
+The F4 upper bound is 13.90024918.
+The numerical Eisenstein lower bound is 292500/444911 = 0.6574349.
+The numerical cusp form bound is 2.082059.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 10, 15 ]
+Split local cover of the form [d] + L with d = 1.
+L = [ 4  0  0]
+[ 0 10  2]
+[ 0  2 32].
+Preprocessing complete. Time needed is 30.350 sec.
+The bound for eligible primes is 60.90784023.
+There are 1739 eligible primes.
+The product of more than 9 primes exceeds the bound.
+The largest squarefree eligible number is 987982710.
+Computing the theta series for the ternary form up to precision 502916.
+There are 3 numbers which aren't represented by the ternary form.
+They are [ 15, 10, 1 ].
+The following numbers fail to be represented by the form: [ 15, 10 ].
+Checking eligible numbers complete. Time needed is 0.880 sec.
+There are 0 numbers which aren't represented by the ternary form.
+They are [].
+The following numbers fail to be represented by the form: [ 15, 10 ]
+Time needed is 32.850 sec.

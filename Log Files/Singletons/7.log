@@ -1,0 +1,72 @@
+Summary for Form #6.
+Form has matrix [ 1 -1  1 -2]
+[-1  2 -2  1]
+[ 1 -2  3 -2]
+[-2  1 -2 15].
+This form has level 36.
+It has character 1.
+The list of anisotropic primes is
+   [ 2 ].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 1. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 1.
+Computing newforms of level 2.
+Computing newforms of level 3.
+Computing newforms of level 4.
+Computing newforms of level 6.
+Computing newforms of level 9.
+Computing newforms of level 12.
+Computing newforms of level 18.
+Computing newforms of level 36.
+Newform class 1 has size 1.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 5.
+The big matrix now has 6 rows.
+Rank checking with p = 2103067
+Matrix now has 1 rows.
+Rank checking with p = 21894053
+Matrix now has 1 rows.
+Rank checking with p = 7083367
+Matrix now has 1 rows.
+Matrix has 1 columns.
+We're done with d = 1!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 4.000000000.
+Memory used was 2029.3 Mb.
+The Eisenstein lower bound is 2 =
+   2.000000.
+The F4 upper bound is 2.020000000.
+The numerical Eisenstein lower bound is 2 = 2.000000.
+The numerical cusp form bound is 4.000000.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 7 ]
+Split local cover of the form [d] + L with d = 1.
+L = [ 2  0  0]
+[ 0  2  0]
+[ 0  0 18].
+Preprocessing complete. Time needed is 46.780 sec.
+The bound for eligible primes is 3.298646187.
+There are 14 eligible primes.
+The product of more than 5 primes exceeds the bound.
+The largest squarefree eligible number is 3990.
+Computing the theta series for the ternary form up to precision 1011.
+There are 2 numbers which aren't represented by the ternary form.
+They are [ 7, 1 ].
+The following numbers fail to be represented by the form: [ 7 ].
+Checking eligible numbers complete. Time needed is 0.000 sec.
+There are 0 numbers which aren't represented by the ternary form.
+They are [].
+The following numbers fail to be represented by the form: [ 7 ]
+Time needed is 0.010 sec.

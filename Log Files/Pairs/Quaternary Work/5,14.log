@@ -1,0 +1,269 @@
+Summary for Form #45.
+Form has matrix [ 1  0  0 -3]
+[ 0  2  0 -2]
+[ 0  0  7  0]
+[-3 -2  0 20].
+This form has level 504.
+It has character 56.
+The list of anisotropic primes is
+   [].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 88. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 56.
+Newform class 1 has size 2.
+Newform class 2 has size 4.
+Computing newforms of level 168.
+Newform class 1 has size 16.
+Computing newforms of level 504.
+Newform class 1 has size 2.
+Newform class 2 has size 4.
+Newform class 3 has size 4.
+Newform class 4 has size 4.
+Newform class 5 has size 4.
+Newform class 6 has size 4.
+Newform class 7 has size 16.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 5.
+The big matrix now has 6 rows.
+Rank checking with p = 21933677
+Matrix now has 6 rows.
+Rank checking with p = 28499033
+Matrix now has 6 rows.
+Rank checking with p = 2351857
+Matrix now has 6 rows.
+Matrix has 60 columns.
+Computing newform coefficients at p = 11.
+The big matrix now has 17 rows.
+Rank checking with p = 11532823
+Matrix now has 14 rows.
+Rank checking with p = 28511071
+Matrix now has 14 rows.
+Rank checking with p = 10014671
+Matrix now has 14 rows.
+Matrix has 60 columns.
+Computing newform coefficients at p = 13.
+The big matrix now has 33 rows.
+Rank checking with p = 22552477
+Matrix now has 26 rows.
+Rank checking with p = 31466101
+Matrix now has 26 rows.
+Rank checking with p = 30088021
+Matrix now has 26 rows.
+Matrix has 60 columns.
+Computing newform coefficients at p = 17.
+The big matrix now has 53 rows.
+Rank checking with p = 23517323
+Matrix now has 41 rows.
+Rank checking with p = 29232361
+Matrix now has 41 rows.
+Rank checking with p = 25879367
+Matrix now has 41 rows.
+Matrix has 60 columns.
+Computing newform coefficients at p = 19.
+The big matrix now has 72 rows.
+Rank checking with p = 16430681
+Matrix now has 53 rows.
+Rank checking with p = 3936623
+Matrix now has 53 rows.
+Rank checking with p = 22768549
+Matrix now has 53 rows.
+Matrix has 60 columns.
+Computing newform coefficients at p = 23.
+The big matrix now has 83 rows.
+Rank checking with p = 28885667
+Matrix now has 59 rows.
+Rank checking with p = 11885719
+Matrix now has 59 rows.
+Rank checking with p = 17820679
+Matrix now has 59 rows.
+Matrix has 60 columns.
+Computing newform coefficients at p = 29.
+The big matrix now has 88 rows.
+Rank checking with p = 16754357
+Matrix now has 60 rows.
+Rank checking with p = 2763251
+Matrix now has 60 rows.
+Rank checking with p = 29564141
+Matrix now has 60 rows.
+Matrix has 60 columns.
+We're done with d = 1!
+Finding minimal coefficients for d = 3.
+The big matrix now has 5 rows.
+Rank checking with p = 21126341
+Matrix now has 5 rows.
+Rank checking with p = 29048311
+Matrix now has 5 rows.
+Rank checking with p = 17005477
+Matrix now has 5 rows.
+Matrix has 22 columns.
+The big matrix now has 15 rows.
+Rank checking with p = 26404691
+Matrix now has 10 rows.
+Rank checking with p = 31101691
+Matrix now has 10 rows.
+Rank checking with p = 25973231
+Matrix now has 10 rows.
+Matrix has 22 columns.
+The big matrix now has 23 rows.
+Rank checking with p = 406789
+Matrix now has 11 rows.
+Rank checking with p = 9683287
+Matrix now has 11 rows.
+Rank checking with p = 3177337
+Matrix now has 11 rows.
+Matrix has 22 columns.
+The big matrix now has 24 rows.
+Rank checking with p = 30813173
+Matrix now has 18 rows.
+Rank checking with p = 21920551
+Matrix now has 18 rows.
+Rank checking with p = 25523119
+Matrix now has 18 rows.
+Matrix has 22 columns.
+The big matrix now has 33 rows.
+Rank checking with p = 28780391
+Matrix now has 21 rows.
+Rank checking with p = 1012789
+Matrix now has 21 rows.
+Rank checking with p = 2848057
+Matrix now has 21 rows.
+Matrix has 22 columns.
+The big matrix now has 37 rows.
+Rank checking with p = 13134271
+Matrix now has 22 rows.
+Rank checking with p = 16826683
+Matrix now has 22 rows.
+Rank checking with p = 26750929
+Matrix now has 22 rows.
+Matrix has 22 columns.
+We're done with d = 3!
+Finding minimal coefficients for d = 9.
+The big matrix now has 4 rows.
+Rank checking with p = 7415501
+Matrix now has 3 rows.
+Rank checking with p = 4197883
+Matrix now has 3 rows.
+Rank checking with p = 17859659
+Matrix now has 3 rows.
+Matrix has 6 columns.
+The big matrix now has 9 rows.
+Rank checking with p = 11852051
+Matrix now has 3 rows.
+Rank checking with p = 26220569
+Matrix now has 3 rows.
+Rank checking with p = 15665317
+Matrix now has 3 rows.
+Matrix has 6 columns.
+The big matrix now has 11 rows.
+Rank checking with p = 20666551
+Matrix now has 3 rows.
+Rank checking with p = 9491917
+Matrix now has 3 rows.
+Rank checking with p = 3844409
+Matrix now has 3 rows.
+Matrix has 6 columns.
+The big matrix now has 13 rows.
+Rank checking with p = 26532983
+Matrix now has 5 rows.
+Rank checking with p = 29684503
+Matrix now has 5 rows.
+Rank checking with p = 27891949
+Matrix now has 5 rows.
+Matrix has 6 columns.
+The big matrix now has 17 rows.
+Rank checking with p = 5475961
+Matrix now has 5 rows.
+Rank checking with p = 25454393
+Matrix now has 5 rows.
+Rank checking with p = 13621147
+Matrix now has 5 rows.
+Matrix has 6 columns.
+The big matrix now has 18 rows.
+Rank checking with p = 32110937
+Matrix now has 6 rows.
+Rank checking with p = 13733101
+Matrix now has 6 rows.
+Rank checking with p = 26011103
+Matrix now has 6 rows.
+Matrix has 6 columns.
+We're done with d = 9!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building trace matrix for newform 3.
+Done!
+Building trace matrix for newform 4.
+Done!
+Building trace matrix for newform 5.
+Done!
+Building trace matrix for newform 6.
+Done!
+Building trace matrix for newform 7.
+Done!
+Building trace matrix for newform 8.
+Done!
+Building trace matrix for newform 9.
+Done!
+Building trace matrix for newform 10.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+Working on decomposition of d = 3 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building trace matrix for newform 3.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+Working on decomposition of d = 9 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 15.61561199.
+Memory used was 589.66 Mb.
+The Eisenstein lower bound is 9/25 =
+   0.3600000.
+The F4 upper bound is 43.81046696.
+The numerical Eisenstein lower bound is 44712/124175 = 0.3600725.
+The numerical cusp form bound is 2.500822.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 5, 14 ]
+Split local cover of the form [d] + L with d = 1.
+L = [ 4  0  0]
+[ 0 14  0]
+[ 0  0 18].
+Preprocessing complete. Time needed is 29.520 sec.
+The bound for eligible primes is 71.54219297.
+There are 2311 eligible primes.
+The product of more than 9 primes exceeds the bound.
+The largest squarefree eligible number is 969144330.
+Computing the theta series for the ternary form up to precision 498098.
+There are 3 numbers which aren't represented by the ternary form.
+They are [ 14, 5, 1 ].
+The following numbers fail to be represented by the form: [ 14, 5 ].
+Checking eligible numbers complete. Time needed is 2.190 sec.
+There are 0 numbers which aren't represented by the ternary form.
+They are [].
+The following numbers fail to be represented by the form: [ 14, 5 ]
+Time needed is 73.610 sec.

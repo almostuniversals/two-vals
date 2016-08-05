@@ -1,0 +1,65 @@
+Summary for Form #12.
+Form has matrix [ 2  0 -2 -3]
+[ 0  3  0  0]
+[-2  0  4  3]
+[-3  0  3  6].
+This form has level 24.
+It has character 8.
+The list of anisotropic primes is
+   [].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 2. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 8.
+Computing newforms of level 24.
+Newform class 1 has size 2.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 5.
+The big matrix now has 6 rows.
+Rank checking with p = 33102103
+Matrix now has 2 rows.
+Rank checking with p = 26024393
+Matrix now has 2 rows.
+Rank checking with p = 18895417
+Matrix now has 2 rows.
+Matrix has 2 columns.
+We're done with d = 1!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 2.400000000.
+Memory used was 1454.0 Mb.
+The Eisenstein lower bound is 2/5 =
+   0.4000000.
+The F4 upper bound is 6.060000000.
+The numerical Eisenstein lower bound is 3276/8185 = 0.4002444.
+The numerical cusp form bound is 2.400000.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 1, 15 ]
+Split local cover of the form [d] + L with d = 2.
+L = [ 4  0  0]
+[ 0  6  0]
+[ 0  0 12].
+Preprocessing complete. Time needed is 36.750 sec.
+The bound for eligible primes is 13.27679479.
+There are 127 eligible primes.
+The product of more than 8 primes exceeds the bound.
+The largest squarefree eligible number is 9699690.
+Computing the theta series for the ternary form up to precision 99662.
+There are 3 numbers which aren't represented by the ternary form.
+They are [ 15, 2, 1 ].
+The following numbers fail to be represented by the form: [ 15, 1 ].
+Checking eligible numbers complete. Time needed is 0.040 sec.
+There are 0 numbers which aren't represented by the ternary form.
+They are [].
+The following numbers fail to be represented by the form: [ 15, 1 ]
+Time needed is 10.910 sec.

@@ -1,0 +1,129 @@
+Summary for Form #1.
+Form has matrix [ 1  0  2  0]
+[ 0  2  1  0]
+[ 2  1  7  0]
+[ 0  0  0 20].
+This form has level 80.
+It has character 1.
+The list of anisotropic primes is
+   [ 5 ].
+Are all integers locally represented? true.
+Pre-computing theta series and Eisenstein series.
+Cusp dimension is 7. Precision is 5000.
+
+Starting cusp constant computation.
+Computing newforms of level 1.
+Computing newforms of level 2.
+Computing newforms of level 4.
+Computing newforms of level 5.
+Computing newforms of level 8.
+Computing newforms of level 10.
+Computing newforms of level 16.
+Computing newforms of level 20.
+Newform class 1 has size 1.
+Computing newforms of level 40.
+Newform class 1 has size 1.
+Computing newforms of level 80.
+Newform class 1 has size 1.
+Newform class 2 has size 1.
+Finding minimal coefficients for d = 1.
+Computing newform coefficients at p = 3.
+The big matrix now has 8 rows.
+Rank checking with p = 9681803
+Matrix now has 3 rows.
+Rank checking with p = 20495701
+Matrix now has 3 rows.
+Rank checking with p = 4102169
+Matrix now has 3 rows.
+Matrix has 4 columns.
+Computing newform coefficients at p = 7.
+The big matrix now has 22 rows.
+Rank checking with p = 28341233
+Matrix now has 4 rows.
+Rank checking with p = 15916079
+Matrix now has 4 rows.
+Rank checking with p = 5941913
+Matrix now has 4 rows.
+Matrix has 4 columns.
+We're done with d = 1!
+Finding minimal coefficients for d = 2.
+The big matrix now has 8 rows.
+Rank checking with p = 20909297
+Matrix now has 2 rows.
+Rank checking with p = 30144293
+Matrix now has 2 rows.
+Rank checking with p = 26896297
+Matrix now has 2 rows.
+Matrix has 2 columns.
+We're done with d = 2!
+Finding minimal coefficients for d = 4.
+The big matrix now has 7 rows.
+Rank checking with p = 7723453
+Matrix now has 1 rows.
+Rank checking with p = 23793907
+Matrix now has 1 rows.
+Rank checking with p = 11413751
+Matrix now has 1 rows.
+Matrix has 1 columns.
+We're done with d = 4!
+Computing coefficients at primes dividing the level.
+Working on decomposition of d = 1 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building trace matrix for newform 3.
+Done!
+Building trace matrix for newform 4.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+Working on decomposition of d = 2 piece.
+Building trace matrix for newform 1.
+Done!
+Building trace matrix for newform 2.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+Working on decomposition of d = 4 piece.
+Building trace matrix for newform 1.
+Done!
+Building big trace matrix.
+Solving the eigen matrix linear system!
+Solving the trace matrix linear system!
+Done! Time taken was 0.000
+It worked!
+The full decomposition is complete!
+The overall cuspidal constant is 4.207106781.
+Memory used was 653.72 Mb.
+The Eisenstein lower bound is 1/2 =
+   0.5000000.
+The F4 upper bound is 8.498355698.
+The numerical Eisenstein lower bound is 1/2 = 0.5000000.
+The numerical cusp form bound is 1.500000.
+The form represents all numbers less than
+or equal to 5000 except the following: [ 5, 125, 3125 ]
+Split local cover of the form [d] + L with d = 1.
+L = [ 4 -2  0]
+[-2  6  0]
+[ 0  0 40].
+Preprocessing complete. Time needed is 58.440 sec.
+The bound for eligible primes is 13.87775674.
+There are 136 eligible primes.
+The product of more than 7 primes exceeds the bound.
+Up to precision 10000, the form has the following exceptions [ 5, 125, 3125 ].
+There are 2884 eligible numbers.
+Generating eligible numbers complete. Time needed is 19.210 sec.
+The largest eligible number is 1138830.
+Computing the theta series for the ternary form up to precision 106716.
+There are 1 numbers which aren't represented by the ternary form.
+They are [ 1 ].
+The following numbers fail to be represented by the form: [].
+Checking eligible numbers complete. Time needed is 1.610 sec.
+An anisotropic prime of 5 yields exceptions of the form 5^odd
