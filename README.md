@@ -14,7 +14,7 @@ This directory contains all the Magma code we used to run each given form:
 ## Log Files
 This directory contains one log file (from the Quadratic Forms Eligibility Suite) per the 73 possible excepted pairs and 9 possible excepted singletons proving that each of these forms except exactly that pair or singleton.
 
-Also in this directory is a .zip file containing such log files for every necessary form. (Read at your own risk!)
+A .zip file containing such log files for all necessary forms is available [here](https://goo.gl/o73kCk) (Read at your own risk!).
 
 ## Escalations
 Included here is an example Sage worksheet file for how we automated the escalation process.
