@@ -23,13 +23,18 @@ function bitread(seq, index, modulus)
 end function;
 
 // Computes B(p) naively given a solitary prime
-function BoundPrimeNaive(p, power, level, chi)
-   specialProduct := chi(p) eq -1 and not IsDivisibleBy(level,p) select (p - 1) / (p + 1) else 1;
-   return (Sqrt(p^power) / (power + 1)) * specialProduct;
+function BoundPrimeNaive(p, power, level, chi, aniso)
+   if p in aniso then
+      return 1/(power + 1) * 1.0;
+   else
+      specialProduct := chi(p) eq -1 and not IsDivisibleBy(level,p) select (p - 1) / (p + 1) else 1;
+      return (Sqrt(p^power) / (power + 1)) * specialProduct;
+   end if;
 end function;
 
 // A better (faster) way to compute B(m) by taking the product of B(p) for each prime in the prime factorization of m.
 // This is faster since we store the already computed values of B(p) for each prime.
+// I question whether this really offers a significant speed advantage
 // Note: we don't actually pass the number m; rather, we pass the sequence of primes, since this is quicker than factoring.
 // Note/Warning: Only works on squarefree numbers. Otherwise, use BoundM!
 function BetterBound(primes)
@@ -42,42 +47,38 @@ function BoundM(m, level, chi, aniso)
    if m eq 1 then
       return 1;
    else
-      arr := [BoundPrimeNaive(p[1],p[2],level,chi) : p in Factorization(m) | not p[1] in aniso];
-      if #arr gt 0 then
-         return &*arr;
-      else
-         anisoFactors := [p : p in Factorization(m) | p[1] in aniso];
-         specialProd := &*[chi(p[1]) eq -1 and not IsDivisibleBy(level, p[1]) select (p[1]-1) / (p[1]+1) else 1 : p in anisoFactors];
-         return 1/&*[p[2] + 1 : p in anisoFactors]*specialProd;
-      end if;
+      return &*[BoundPrimeNaive(p[1],p[2],level,chi,aniso) : p in Factorization(m)];
    end if;
 end function;
 
 // Returns a list of B(p)'s where B(p) < 1. We only need to check 2,3,5,7 because
 // for primes >= 11, B(p) is guaranteed at least 1
-function GetBpLt1(level,chi)
-   return [bp : p in [2,3,5,7] | bp lt 1 where bp is BoundPrimeNaive(p,1,level,chi)];
+function GetBpLt1(level,chi,aniso)
+   // I'm pretty sure casting to a set then back to a sequence is unnecessary
+   // Also, for an almost universal form the only anisotropic prime is 2, so this is doubly unnecessary
+   potentialPrimes := Setseq(Seqset([2,3,5,7] cat aniso));
+   return [bp : p in potentialPrimes | bp lt 1 where bp is BoundPrimeNaive(p,1,level,chi,aniso)];
 end function;
 
 // Get the bound on B(p) for elig primes, i.e. every eligible prime p must have
 // B(p) lt return value
-function GetEligPrimesBound(bound, level, chi)
-   return bound / (&*GetBpLt1(level,chi));
+function GetEligPrimesBound(bound, level, chi, aniso)
+   return bound / (&*GetBpLt1(level,chi,aniso));
 end function;
 
 // Gets all eligible primes, sorted by B(p)
-function GetEligiblePrimes(upperBound, level, chi)
+function GetEligiblePrimes(upperBound, level, chi, aniso)
    eligiblePrimes := [];
 
    // Computes the sequence of eligible primes, stored as tuples of the prime p and B(p).
    p := NextPrime(1);
-   boundP := BoundPrimeNaive(p,1,level,chi);
+   boundP := BoundPrimeNaive(p,1,level,chi,aniso);
 
    // This inequality could be strict, but we're playing it safe
    while boundP le upperBound do
       Append(~eligiblePrimes,<p,boundP>);
       p := NextPrime(p);
-      boundP := BoundPrimeNaive(p,1,level,chi);
+      boundP := BoundPrimeNaive(p,1,level,chi,aniso);
    end while;
 
    for i in [1..10] do
@@ -85,7 +86,7 @@ function GetEligiblePrimes(upperBound, level, chi)
          Append(~eligiblePrimes, <p, boundP>);
       end if;
       p := NextPrime(p);
-      boundP := BoundPrimeNaive(p,1,level,chi);
+      boundP := BoundPrimeNaive(p,1,level,chi,aniso);
    end for;
 
    return Sort(eligiblePrimes, func<p1,p2 | p1[2] - p2[2]>);
@@ -141,7 +142,6 @@ function PrimesSquares(eligiblePrimes, bound, ourNumber,level,chi, aniso)
    i := 1;
    p := eligiblePrimes[i];
 
-   // Note: again, theoretically this inequality could be strict, but we're playing it on the safe side.
    while BoundM(ourNumber*(p[1])^2, level, chi, aniso) le bound do
       Append(~eligSquares, ourNumber * (p[1])^2);
       i := i + 1;
@@ -154,7 +154,7 @@ function PrimesSquares(eligiblePrimes, bound, ourNumber,level,chi, aniso)
    return eligSquares;
 end function;
 
-// Gets the maximum number of primes we multiply before exceeding the bound for eligible numbers
+// Gets the maximum number of distinct primes we multiply before exceeding the bound for eligible numbers
 function GetMaxNumPrimes(eligiblePrimes, bound)
    prodBound := 1;
    i := 0;

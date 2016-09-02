@@ -532,11 +532,11 @@ function runEligibility(M, d, S, F4bound, NNNN, chi, aniso)
    
    fullLattice := LatticeWithGram(M);
    
-   primeBound := GetEligPrimesBound(F4bound, NNNN, chi);
+   primeBound := GetEligPrimesBound(F4bound, NNNN, chi, aniso);
    PrintFile(LOGFILE, Sprintf("The bound for eligible primes is %o.", primeBound));
    PrintFile(ELIGFILE, Sprintf("primeBound := %o;", primeBound));
    
-   eligPrimes := GetEligiblePrimes(primeBound, NNNN, chi);
+   eligPrimes := GetEligiblePrimes(primeBound, NNNN, chi, aniso);
    PrintFile(LOGFILE, Sprintf("There are %o eligible primes.", #eligPrimes));
    PrintFile(ELIGFILE, Sprintf("eligPrimes := %o;", eligPrimes));
    
