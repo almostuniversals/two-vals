@@ -46,7 +46,7 @@ MQ := RMatrixSpace(RationalField(), 4, 4);
 
 // The file quatver.txt should be loaded on the command line
 
-load "anisos_quatver.txt";
+load "noobs_quatver.txt";
 M := MQ ! quatver[mmm];
 
 // In order for mutual recursion to happen, we must

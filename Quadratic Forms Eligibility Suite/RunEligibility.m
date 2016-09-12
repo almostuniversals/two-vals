@@ -440,6 +440,7 @@ function repConds46(num)
    return false;
 end function;
 
+// This wasn't actually anisotropic
 function repConds47(num)
    fact := Factorization(num);
    if #fact eq 1 then
@@ -475,33 +476,69 @@ function repConds50(num)
    return false;
 end function;
 
-function repCondsPt2Num19(num)
+function repConds51(num)
    fact := Factorization(num);
-   return #fact eq 1 and fact[1][1] eq 2 and fact[1][2] mod 2 eq 0;
-end function;
-
-function repCondsPt3(num)
-   fact := Factorization(num);
-   if #fact eq 1 then
-      return fact[1][1] eq 5 and fact[1][2] mod 2 eq 0;
-   end if;
    if #fact eq 2 then
-      return fact[1] eq <2,2> and fact[2][1] eq 5 and fact[2][2] mod 2 eq 0;
+      return (fact[1] eq <5,1> and fact[2][1] eq 7 and fact[2][2] mod 2 eq 0) or (fact[1] eq <3,1> and fact[2][1] eq 7 and fact[2][2] mod 2 eq 1);
+   end if;
+   if #fact eq 3 then
+      return fact[1] eq <2,1> and fact[2] eq <3,1> and fact[3][1] eq 7 and fact[3][2] mod 2 eq 1;
    end if;
    return false;
 end function;
 
-function repCondsPt4(num)
+function repConds52(num)
    fact := Factorization(num);
-   return #fact eq 1 and fact[1][1] eq 5;
+   if #fact eq 2 then
+      if fact[1] eq <2,1> then
+         return fact[2][1] eq 3 and fact[2][2] mod 2 eq 1;
+      end if;
+      if fact[1][1] eq 3 then
+         return fact[1][2] mod 2 eq 1 and fact[2] eq <7,1>;
+      end if;
+   end if;
+   return false;
 end function;
 
-function repCondsPt5(num)
+function repConds53(num)
    fact := Factorization(num);
-   return #fact eq 1 and fact[1][1] eq 3 and fact[1][2] mod 2 eq 0;
+   if #fact eq 2 then
+      return fact[1][1] eq 2 and fact[1][2] mod 2 eq 1 and fact[2] eq <7,1>;
+   end if;
+   if #fact eq 3 then
+      return fact[1][1] eq 2 and fact[1][2] mod 2 eq 1 and fact[2] eq <3,1> and fact[3] eq <5,1>;
+   end if;
+   return false;
+end if;
+
+function repConds54(num)
+   fact := Factorization(num);
+   if #fact eq 1 then
+      return fact[1][1] eq 3 and fact[1][2] mod 2 eq 1;
+   end if;
+   if #fact eq 2 then
+      return fact[1][1] eq 3 and fact[1][2] mod 2 eq 1 and fact[2] eq <13,1>;
+   end if;
+   return false;
 end function;
 
-function repCondsActual5(num)
+function repConds55(num)
+   fact := Factorization(num);
+   return #fact eq 2 and fact[1][1] eq 2 and fact[1][2] mod 2 eq 1 and fact[2] eq <5,1>;
+end function;
+
+function repConds56(num)
+   fact := Factorization(num);
+   if #fact eq 2 then
+      return fact[1] eq <5,1> and fact[2][1] eq 13;
+   end if;
+   if #fact eq 3 then
+      return fact[1] eq <2,1> and fact[2] eq <5,1> and fact[3][1] eq 13;
+   end if;
+   return false;
+end function;
+
+function repConds57(num)
    fact := Factorization(num);
    if #fact eq 2 then
       if fact[1][1] eq 5 then
@@ -513,14 +550,161 @@ function repCondsActual5(num)
    return false;
 end function;
 
-function repCondsPt6(num)
+function repConds58(num)
    fact := Factorization(num);
+   return #fact eq 1 and fact[1][1] eq 3 and fact[1][2] mod 2 eq 0;
+end function;
+
+function repConds59(num)
+   fact := Factorization(num);
+   return #fact eq 1 and fact[1][1] eq 2 and fact[1][2] mod 2 eq 0;
+end function;
+
+function repConds60(num)
+   fact := Factorization(num);
+   return fact[1][1] eq 2 and fact[1][2] mod 2 eq 1 and fact[2] eq <3,1>;
+end function;
+
+function repConds61(num)
+   fact := Factorization(num);
+   if #fact eq 1 then
+      return fact[1][1] eq 2 and fact[1][2] mod 2 eq 0;
+   end if;
    if #fact eq 2 then
-      return fact[1] eq <5,1> and fact[2][1] eq 13;
+      return fact[1][1] eq 2 and fact[1][2] mod 2 eq 1 and fact[2] eq <5,1>;
    end if;
-   if #fact eq 3 then
-      return fact[1] eq <2,1> and fact[2] eq <5,1> and fact[3][1] eq 13;
-   end if;
+   return false;
+end funciton;
+
+function removeAnisoExceptions(repConds, num)
+   case repConds:
+      when 1:
+         return repConds1(num);
+      when 2:
+         return repConds2(num);
+      when 3:
+         return repConds3(num);
+      when 4:
+         return repConds4(num);
+      when 5:
+         return repConds5(num);
+      when 6:
+         return repConds6(num);
+      when 7:
+         return repConds7(num);
+      when 8:
+         return repConds8(num);
+      when 9:
+         return repConds9(num);
+      when 10:
+         return repConds10(num);
+      when 11:
+         return repConds11(num);
+      when 12:
+         return repConds12(num);
+      when 13:
+         return repConds13(num);
+      when 14:
+         return repConds14(num);
+      when 15:
+         return repConds15(num);
+      when 16:
+         return repConds16(num);
+      when 17:
+         return repConds17(num);
+      when 18:
+         return repConds18(num);
+      when 19:
+         return repConds19(num);
+      when 20:
+         return repConds20(num);
+      when 21:
+         return repConds21(num);
+      when 22:
+         return repConds22(num);
+      when 23:
+         return repConds23(num);
+      when 24:
+         return repConds24(num);
+      when 25:
+         return repConds25(num);
+      when 26:
+         return repConds26(num);
+      when 27:
+         return repConds27(num);
+      when 28:
+         return repConds28(num);
+      when 29:
+         return repConds29(num);
+      when 30:
+         return repConds30(num);
+      when 31:
+         return repConds31(num);
+      when 32:
+         return repConds32(num);
+      when 33:
+         return repConds33(num);
+      when 34:
+         return repConds34(num);
+      when 35:
+         return repConds35(num);
+      when 36:
+         return repConds36(num);
+      when 37:
+         return repConds37(num);
+      when 38:
+         return repConds38(num);
+      when 39:
+         return repConds39(num);
+      when 40:
+         return repConds40(num);
+      when 41:
+         return repConds41(num);
+      when 42:
+         return repConds42(num);
+      when 43:
+         return repConds43(num);
+      when 44:
+         return repConds44(num);
+      when 45:
+         return repConds45(num);
+      when 46:
+         return repConds46(num);
+      when 47:
+         return repConds47(num);
+      when 48:
+         return repConds48(num);
+      when 49:
+         return repConds49(num);
+      when 50:
+         return repConds50(num);
+      when 51:
+         return repConds51(num);
+      when 52:
+         return repConds52(num);
+      when 53:
+         return repConds53(num);
+      when 54:
+         return repConds54(num);
+      when 55:
+         return repConds55(num);
+      when 56:
+         return repConds56(num);
+      when 57:
+         return repConds57(num);
+      when 58:
+         return repConds58(num);
+      when 59:
+         return repConds59(num);
+      when 60:
+         return repConds60(num);
+      when 61:
+         return repConds61(num);
+      when -1:
+         return false;
+      else:
+         return false;
+   end case;
    return false;
 end function;
 
@@ -545,6 +729,7 @@ function runEligibility(M, d, S, F4bound, NNNN, chi, aniso)
    PrintFile(ELIGFILE, Sprintf("maxNumPrimeProduct := %o;", maxNumPrimeProduct));
    
    eligFromPrimes := EligibleFromPrimes(F4bound, eligPrimes, maxNumPrimeProduct);
+   eligFromPrimes := [x : x in eligFromPrimes | not removeAnisoExceptions(repConds, x)];
 
    PrintFile(LOGFILE, Sprintf("The largest squarefree eligible number is %o.", eligFromPrimes[1]));
 
@@ -557,6 +742,7 @@ function runEligibility(M, d, S, F4bound, NNNN, chi, aniso)
    unreps := [x : x in excepts];
    while #excepts gt 0 do
       eligSquares := EligibleWithSquares(F4bound, NNNN, chi, excepts, eligPrimes, aniso);
+      eligSquares := [x : x in eligSquares | not removeAnisoExceptions(repConds, x)];
       if #eligSquares eq 0 then
          break;
       end if;

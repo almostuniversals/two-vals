@@ -55,7 +55,6 @@ end function;
 // for primes >= 11, B(p) is guaranteed at least 1
 function GetBpLt1(level,chi,aniso)
    // I'm pretty sure casting to a set then back to a sequence is unnecessary
-   // Also, for an almost universal form the only anisotropic prime is 2, so this is doubly unnecessary
    potentialPrimes := Setseq(Seqset([2,3,5,7] cat aniso));
    return [bp : p in potentialPrimes | bp lt 1 where bp is BoundPrimeNaive(p,1,level,chi,aniso)];
 end function;

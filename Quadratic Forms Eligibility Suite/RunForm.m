@@ -11,6 +11,14 @@ if (not assigned mmm) then
   quit;
 end if;
 
+if (not assigned repConds) then
+   repConds := -1;
+end if;
+
+if Type(repConds) eq MonStgElt then
+   repConds := StringToInteger(repConds);
+end if;
+
 if Type(mmm) eq MonStgElt then
    mmm := StringToInteger(mmm);
 end if;
